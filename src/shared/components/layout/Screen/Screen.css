@@ -1,0 +1,4 @@
+.screen {
+  height: calc(100vh - 148px);
+  overflow-y: scroll;
+}

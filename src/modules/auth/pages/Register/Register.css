@@ -1,0 +1,6 @@
+.register__form {
+  @apply mt-3 flex flex-col items-center;
+  width: 100%;
+  max-width: 1200px;
+  row-gap: 20px;
+}

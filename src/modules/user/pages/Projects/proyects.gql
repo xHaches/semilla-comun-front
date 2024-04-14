@@ -1,0 +1,15 @@
+query Proyectos {
+  proyectos {
+    descripcion
+    estado
+    fecha_limite_implementacion
+    fecha_limite_recaudacion
+    fecha_registro
+    localidad_id
+    meta_recaudacion
+    nombre
+    proyecto_id
+    saldo
+    usuario_administrador_id
+  }
+}

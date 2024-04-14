@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.undrl {
+  @apply underline;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  overflow-y: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Prevenir el zoom In al hacer por primera vez doble tap */
+  touch-action: manipulation;
+}
+
+html,
+#root {
+  height: 100%;
+}
+
+.bg-color {
+  @apply bg-light-100;
+}

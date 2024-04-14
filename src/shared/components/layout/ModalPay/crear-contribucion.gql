@@ -1,0 +1,9 @@
+mutation Crear_contribucion($crear_contribucion: CreateContribucionInput!) {
+  crear_contribucion(CreateContribucionInput: $crear_contribucion) {
+    contribucion_id
+    fecha_registro
+    monto
+    proyecto_id
+    usuario_id
+  }
+}
